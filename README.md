@@ -49,9 +49,3 @@ About three quarters of possible user-movie pairs have no rating, which is the c
 - **Why they rank highly:** these movies have the highest average scores among raters, and the 10-rating minimum keeps the averages from resting on one or two votes. Every movie in this dataset has at least 12 ratings, so the threshold removed none.
 - **Advantage:** simple and works for new users with no history (no cold-start problem for users).
 - **Limitations:** (1) no personalisation, every user sees the same list; (2) popularity bias, new or niche movies rarely get enough ratings to surface.
-
-## Run it
-```
-pip install pandas matplotlib jupyter
-jupyter notebook Popularity_Recommender.ipynb
-```
